@@ -28,7 +28,7 @@ del a[3:5]
 #Dropbox Converter
 if o.netloc == 'www.dropbox.com' :
   a[0] = 'https://'
-  a[1] = 'dl.dropbox.com'
+  a[1] = 'dl.dropboxusercontent.com'
   e = "".join(a)
   print(e)
 #Copy.com Converter
